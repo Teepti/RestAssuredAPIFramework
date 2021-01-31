@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoSuite" verbose ="5" parallel="methods" thread-count="10">
+    <test name="DemoTest">
+
+        <classes>
+            <class name="com.scrolltest.restAssured.TestGETPerson"></class>
+            <class name="com.scrolltest.restAssured.TestPOSTPerson"></class>
+            <class name="com.scrolltest.restAssured.TestPUTPerson"></class>
+            <class name="com.scrolltest.restAssured.TestDELETEPerson"></class>
+        </classes>
+    </test>
+</suite>
